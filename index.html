@@ -1,342 +1,420 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
-	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>Dominic Oddo</title>
-		<meta name="description" content="Home base for Dominic Oddo, Research Assistant at the University of New Mexico."/>
-		<meta name="keywords" content="exoplanets, graduate student, science, outreach"/>
-		<meta name="google-site-verification" content="Nc4idWL0i1lnFaudl049t9q0W0BIFF1xhucFEmd2P9g" />
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<!-- The body is the location where your site's content will go -->
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dominic Oddo — Exoplanet Researcher</title>
+  <meta name="description" content="Dominic Oddo is a PhD student at the University of New Mexico studying transiting exoplanets and circumbinary planets with TESS." />
+  <meta name="keywords" content="exoplanets, circumbinary planets, TESS, graduate student, UNM, astronomy" />
+  <meta name="google-site-verification" content="Nc4idWL0i1lnFaudl049t9q0W0BIFF1xhucFEmd2P9g" />
 
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
-			<div id="wrapper">
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f4f7f6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#080d0c" media="(prefers-color-scheme: dark)">
 
-					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
-						<!-- This is the main content of the front page -->
-						<div class="content">
-							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Dominic Oddo
-								</h1>
-								<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
-								<img src="images/Dec2023_selfie.jpg" style="width:350px; height:350px; object-fit: cover;">
-								<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
-								<p> 
-									PhD Student <br> University of New Mexico <br> 2023-2025 NASA FINESST Awardee
-								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p> 
-									<!-- Note you will want to change where this points to! -->
-									<a href="images/Oddo_CV_October2025.pdf" target="_blank">Curriculum Vitae</a>
-								</p>
-							</div>
-						</div>
-						<!-- This is the navigation menu -->
-						<nav>
-							<!-- This element makes an "Unordered List" -->
-							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
-									<a href="#about">About Me</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-								<li>
-									<a href="#community">Community</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
-							</ul>
-						</nav>
-					</header>
+<body>
+  <div id="top"></div>
 
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
-					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<!--<span class="image main">
-								<img src="images/pic01.jpg" alt=""/>
-							</span> -->
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
-							<p>
-								I was born near Cleveland, Ohio in 1997 to Elizabeth and John Oddo,
-								to whom I am forever grateful for cultivating and fostering my curiosity.
-								I also cite my grade-school involvement in
-								<a href="https://www.soinc.org/">Science Olympiad</a> as one of the primary
-								drivers of my lifelong love of science. I've known for a long time that I wanted to do science, 
-								but I didn't always know which field to choose because it all seemed so cool! 
-								I've always found astronomy especially interesting because it's really boggling to try and reconcile
-								astronomical scales with the scales of things on Earth (e.g. If you're the average American, 
-								your one-way commute to work is 15 miles, and your average commute takes 27 minutes. If you were to 
-								"commute" at that same rate to one of the nearest star-forming regions, the Orion Nebula, 
-								and get an up-close glimpse of stars at work 
-								you would be commuting for about 2.7 BILLION years. Let's hope the traffic doesn't slow things down further.)
-							<p>
-								I completed my Bachelor's degree at Case Western Reserve University in 2020 and I am currently a 
-								PhD candidate at the University of New Mexico (check out the <a href="#research">Research</a> page to see what I do!).
-								Very briefly, my scientific passion is extrasolar planets (or exoplanets), which is the of study of planets orbiting other stars.
-							<p>
-								<img src="images/cheech.jpg" alt="Chini perched on my desk." style="width:340px;height:340px;"/><p>
-								I am a cat dad to Chini (pictured above). I enjoy running (and other outdoor activities like hiking and biking),
-								baking, jazz music, DnD, and being a nerd in many other forms.
-								
-	
-							</p>
-								<b>Thanks to:</b> Lori Cohen, Amy Roediger, Tom Ramsey, Victor Senn, Mark Harker, 
-								Ben Monreal, Don Figer, John Ruhl, Gary Chottiner, Chris Mihos, Stacy McGaugh, Diana Dragomir (*PhD advisor)
-								and many MANY more friends, colleagues, teachers and mentors for being a part of my journey so far. I couldn't do this without you all.
-								
-							</p>
-						</article>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="#top" aria-label="Home — Dominic Oddo">
+        <span class="monogram" aria-hidden="true">DO</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#community">Community</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </button>
+    </div>
+  </header>
 
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<span class="image main">
-								<img src="images/tess-mit_image.jpg" alt=""/>
-							</span>
-							<p>
-								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=%20author%3A%22Oddo%2C%20D.%22&sort=date%20desc%2C%20bibcode%20desc">Check out my publications here!</a>
-							</p>
+  <main>
 
-							<p>
-								The focus of almost all of the research I do is <a href="https://exoplanets.nasa.gov/faq/31/whats-a-transit/">transiting exoplanets</a>.
-								There are multiple different ways to find exoplanets, but the transit method currently holds the record for the most planets discovered,
-								in part because this method of planet detection is the easiest to do at a large scale. For example, the NASA
-								<a href="https://www.nasa.gov/content/about-tess">Transiting Exoplanet Survey Satellite (TESS)</a> Mission 
-								is scanning nearly the entire sky for transiting planets. I work with TESS data often for a few different purposes, which are listed below. 
-							</p>
-							<p>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-								-->
-								<b>**The search for circumbinary exoplanets**</b> <br><b> Awarded <a href="https://astrobites.org/2023/01/29/nasa-finesst-application-guide/">NASA FINESST in 2023!</a></b>
-								<br>The ever-growing zoo of planets that we've discovered so far exhibits lots of worlds that were
-								previously <a href="https://exoplanets.nasa.gov/alien-worlds/strange-new-worlds/">beyond our imagination<a/> 
-								(e.g. <a href="https://www.princeton.edu/news/2020/01/07/planet-wasp-12b-death-spiral-say-scientists">WASP-12b</a>,
-								<a href="https://www.space.com/37654-exoplanet-55-cancri-e-facts.html">55 Cancri e</a>, or 
-								<a href="https://exoplanets.nasa.gov/eyes-on-exoplanets/?destinations=/alien-worlds/strange-new-worlds/#/planet/AU_Mic_b/">AU Mic b</a>), even in science fiction. 
-								But sometimes, science fiction can come before science fact. Tatooine, home world of Anakin Skywalker in <i>Star Wars</i>, is a fictional planet with two suns in the sky.
-								Given the relative sizes and positions of these suns from Tatooine's surface in the films, it has been suggested that Tatooine orbits outside of both stars in its solar system,
-								making it a circumbinary exoplanet (circum- meaning around or surrounding, and -binary meaning a two-star system! Here's a cool 
-								<a href="https://exoplanets.nasa.gov/resources/1017/nasas-kepler-mission-discovers-multiple-planets-orbiting-twin-suns/">video</a> showing what a real circumbinary planetary system might look like). 
-								For a while, many astronomers believed that planets simply could not form around such tight binary stars, and there's good reason for that.
-								But nature can be pretty tricky, and a handful of circumbinary planets <a href="https://exoplanets.nasa.gov/exoplanet-catalog/1814/kepler-16b/">have been discovered</a> in real life.
-								Their existence and how exactly these planets get to be where we find them is still an open question. 
-							<p>
-								Furthermore, because so few circumbinary planets have been discovered, we still don't know the answers to questions such as how often these planets form,
-								or around what types of binary stars they form. There are also lots more questions that the currently-known set of circumbinary planets have opened rather than answered 
-								(like whether or not they like to pile up in certain locations).
-							<p>	
-								This is the space where I come in. I'm developing methods to take advantage of the huge number of stars that TESS observes
-								and find a whole population of circumbinary planets, which could help us answer these questions about the limits of planet formation in the strangest of circumstances.
-								Or maybe we won't find too many new ones at all, and that would be telling in its own way. My goal for my PhD project is to publish an occurrence rate 
-								(which is usually defined as something along the lines of number of planets per star) for circumbinary planets as found by TESS. If you're interested in talking more about circumbinary planets, 
-								I'm always willing to! Please reach out to me in any of the ways listed on the <a href="#contact">Contact</a> page.
-							</p>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-media">
+        <img class="avatar" src="images/Dec2023_selfie.jpg" alt="Portrait of Dominic Oddo" loading="lazy">
+      </div>
+      <div class="hero-content">
+        <span class="eyebrow">Exoplanet Researcher &amp; PhD Candidate</span>
+        <h1><span class="hero-name">Dominic Oddo</span></h1>
+        <p>
+          PhD candidate at the University of New Mexico, hunting for planets around binary stars and mapping
+          the demographics of the red-dwarf eclipsing binary population with TESS.
+          2023–2025 NASA FINESST Awardee.
+        </p>
+        <div class="hero-meta">
+          <span class="hero-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M20 10c0 4.99-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Albuquerque, New Mexico</span>
+          </span>
+          <a class="hero-meta-item" href="mailto:doddo@unm.edu">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="m3 7 9 6 9-6"></path>
+            </svg>
+            <span>doddo@unm.edu</span>
+          </a>
+        </div>
+        <div class="profile-links">
+          <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=%20author%3A%22Oddo%2C%20D.%22&sort=date%20desc%2C%20bibcode%20desc"
+             target="_blank" rel="noopener" aria-label="ADS Publications">
+            <i class="fa-solid fa-book"></i>
+          </a>
+          <a href="https://www.soinc.org/" target="_blank" rel="noopener" aria-label="Science Olympiad">
+            <i class="fa-solid fa-flask"></i>
+          </a>
+        </div>
+        <div class="cta-group">
+          <a class="btn primary" href="#research">Explore research</a>
+          <a class="btn ghost" href="images/Oddo_CV_October2025.pdf" target="_blank" rel="noopener">Download CV</a>
+        </div>
+      </div>
+    </section>
 
-							<p>
-								<img src="images/period_comparison.png" alt="Orbital periods of our EBs compared to other populations." style="height:340px;"/><br>
-								<b>A catalog of red dwarf eclipsing binaries</b><br>Eclipsing binaries (EBs) work according to the same principle that transiting planets do; when the stars in a system where two (or sometimes more) stars are present pass in front of one another, 
-								they block some of the light, and that allows us to infer properties of those stars. Because EBs have been so vital in constraining models of stellar evolution, they've been famously referred to as the <a href="https://articles.adsabs.harvard.edu/pdf/1948HarMo...7..181R">Royal Road to stellar astrophysics by Henry Russell in 1948</a>. 
-								Red dwarf stars (M dwarf spectral types) tend to be in binaries less often than larger stars, but they're also the most common product of star formation (both of those facts together tell us something really interesting about the environments in which stars form!), so they're really important to nail down the properties of. 
-								Further, M dwarfs are hosts to really interesting planetary systems, and are very much worthy of deep study. Since they're smaller and dimmer, we tend to only see them in our backyard.
+    <!-- ===== About ===== -->
+    <section id="about" class="section about-section">
+      <div class="section-heading">
+        <span class="label">About</span>
+        <h2>From Cleveland to the cosmos</h2>
+      </div>
+      <div class="section-grid">
+        <div class="panel">
+          <p>
+            I grew up near Cleveland, Ohio, where a childhood passion for
+            <a href="https://www.soinc.org/" target="_blank" rel="noopener">Science Olympiad</a>
+            grew into a lifelong love of science. Astronomy hooked me for the same reason it hooks most people:
+            the scales are impossible to reconcile with everyday life. If you commuted to the Orion Nebula
+            at the average American's 15&nbsp;mph pace, you'd be driving for about <em>2.7 billion years</em>.
+          </p>
+          <p>
+            I completed my B.S. at Case Western Reserve University in 2020 and am now a PhD candidate at the
+            <span class="inline-highlight">University of New Mexico</span>, studying
+            <span class="inline-highlight">transiting exoplanets</span> with a focus on
+            <span class="inline-highlight">circumbinary planets</span>.
+            Outside the office I'm a cat dad to Chini, an avid runner and hiker, a baker, and a
+            proud jazz and D&amp;D nerd.
+          </p>
+          <p class="muted">
+            <strong>Thanks to:</strong> Lori Cohen, Amy Roediger, Tom Ramsey, Victor Senn, Mark Harker,
+            Ben Monreal, Don Figer, John Ruhl, Gary Chottiner, Chris Mihos, Stacy McGaugh,
+            Diana Dragomir (*PhD advisor), and many more friends, colleagues, teachers, and mentors.
+          </p>
+        </div>
+        <div class="panel accent">
+          <h3>Current focus</h3>
+          <ul class="checklist">
+            <li>Developing a circumbinary planet detection pipeline for TESS to measure the first occurrence rate from that mission.</li>
+            <li>Published a catalog of ~1,300 M-dwarf eclipsing binaries with orbital &amp; physical properties.</li>
+          </ul>
+          <h3>Recent win</h3>
+          <ul class="checklist checklist-highlight">
+            <li>2023–2025 <strong>NASA FINESST Awardee</strong> — funding the circumbinary planet search.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-							<p>
-								Enter, TESS. TESS has a red bandpass that is excellent for studying those red, nearby M dwarfs, and given its prominence in revealing transiting planets, its similarly an exceptional instrument to study eclipsing binaries. 
-								In my latest publication, I led a small team in identifying approximately 1,300 M dwarf binaries scattered across the sky based on their colors. We then characterized their orbital (orbital periods, eclipse times, etc) and physical (radii, masses, temperatures) properties. 
-								With this information, we were able to make inferences about the M-dwarf binaries as a population. For example, we examined the distribution of eccentricities (how elliptical the orbit is) and mass ratios of these binaries. 
-								There's certainly more work that needs to be done to more deeply characterize these binaries, as a catalog like this serves as a jumping-off point. The paper was recently published, so please <a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...996...82O/abstract">check it out here!</a>
-							</p>
-							
-							<p>
-								<b>Comparing precision between telescopes</b><br>My first 1st-author paper &#128516;. In this work, we analyzed a set of 10 planets, which were all initially found by TESS.
-								We then performed followup observations with the <a href="https://www.esa.int/Science_Exploration/Space_Science/Cheops">ESA CHEOPS mission</a>. CHEOPS has a larger mirror than TESS does,
-								which means it collects more photons and should be more precise than TESS is. However, these telescopes observe at slightly different wavelengths, and they also have different noise properties,
-								which are things we should take into account. We compared the actual precision of our observations with the expected precision of these telescopes, finding that 
-								TESS is performing slightly better than we might have expected. There are a lot of details in the paper, so I would love it if you <a href="https://iopscience.iop.org/article/10.3847/1538-3881/acb4e3/pdf">read it here!</a>
-							</p>
-							<p>
-								I've also done some previous work on expected exoplanet yield with a large direct imaging telescope concept (such as that recommended by the 
-								<a href="https://nap.nationalacademies.org/resource/26141/interactive/">ASTRO2020 Decadal Survey</a>) and applied that to the 
-								<a href="https://ui.adsabs.harvard.edu/abs/2019BAAS...51g..76M/abstract">Wide Aperture Exoplanet Telescope (WAET)</a> concept.
-							</p>
-							
-						</article>
+    <!-- ===== Research ===== -->
+    <section id="research" class="section">
+      <div class="section-heading">
+        <span class="label">Research</span>
+        <h2>Selected work</h2>
+        <p>Circumbinary planets, M-dwarf binaries, and precision photometry — all through the lens of TESS.</p>
+      </div>
+      <div class="feature-grid">
 
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-							<span class="image main">
-								<img src="images/NM_statehouse.jpg" alt=""/>
-							</span>
-							<p>
-								I believe that no matter what you do, being an active member of your community is important. 
-								Like the things we study in astronomy, your community can take many forms and can constitute a variety of sizes;
-								that can include a group as small as your office (just a few charged particles in the ISM), or it can include everyone else on Earth (your whole galaxy cluster!) and everything in between 
-								(like the people of your town, state, nation, etc). I don't have all the answers myself - nobody does - 
-								but I believe working to build more inclusive and diverse spaces, especially in astronomy and other STEM disciplines,
-								is crucially important and long overdue. Here are some things I've recently been involved with.
-							<p>
-								<img src="images/UGW Logo.png" alt="The UNM-UGW logo, featuring a roadrunner.." style="width:340px;height:340px;"/><p>
-								<b>Graduate Worker's Union:</b> The people I live and work with every day are also graduate students; graduate life is my experience and that of the people around me.
-								There are a lot of reasons that <a href="https://unmgrads.ueunion.org/">UNM Graduate Workers</a> unionized, but the bottom line is that graduate students have been overworked and exploited for a long time,
-								and enough is enough. I've been involved with the union in a few different capacities, including in the past semester as a co-lead negotiator for our most recent raise in Spring 2024, which is the most expensive contract that the administration has ever agreed to,
-								but I most enjoy doing walkthroughs and hearing from my colleagues 
-								and how they feel the union can work for them. This is our fuel, and it gives me energy!
-							</p>
-							<p>
-								<b>UNM PUMP:</b> The <a href="https://unmpandagsa.wixsite.com/home/pump">Peer Undergraduate Mentorship Program (PUMP)</a> in the UNM Physics and Astronomy department is an effort to strengthen 
-								our department by building connections and partnerships between undergraduate and graduate students. While UNM P&A's undergrads
-								have structured support for their journey through college, graduate students get the opportunity 
-								to practice their mentorship skills with people who are in the same position they were in just a few years ago.
-								We're still growing, and planning to continue the program during the '23-'24 school year! 
-							</p>
-						</article>
+        <article class="feature-card">
+          <figure class="feature-media">
+            <div class="feature-media-frame">
+              <img src="images/period_comparison.png" alt="Orbital period distribution of M-dwarf eclipsing binaries">
+            </div>
+          </figure>
+          <div class="feature-body">
+            <h3>A Catalog of M-Dwarf Eclipsing Binaries with TESS</h3>
+            <p>
+              Led a team to identify ~1,300 M-dwarf eclipsing binaries across the sky, characterizing their
+              orbital periods, eclipse times, radii, masses, temperatures, and population-level eccentricity distributions.
+            </p>
+            <ul class="tag-list">
+              <li>M dwarfs</li>
+              <li>Eclipsing binaries</li>
+              <li>Stellar populations</li>
+            </ul>
+            <div class="feature-links">
+              <a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...996...82O/abstract" target="_blank" rel="noopener">Read the paper</a>
+            </div>
+          </div>
+        </article>
 
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<span class="image main">
-								<img src="images/VLA_pic.jpg" alt=""/>
-							</span>
-							<p> 
-								My primary mode of professional communication is email.
-							</p>
-								<b>Email:</b> doddo@unm.edu (primary) OR 
-								<p>
-								domoddo15@gmail.com
+        <article class="feature-card">
+          <figure class="feature-media">
+            <div class="feature-media-frame">
+              <img src="images/tess-mit_image.jpg" alt="TESS satellite illustration">
+            </div>
+          </figure>
+          <div class="feature-body">
+            <h3>The Search for Circumbinary Planets (FINESST)</h3>
+            <p>
+              Developing methods to find Tatooine-like planets — circumbinary worlds that orbit two stars — at
+              population scale using TESS. Aiming for the first TESS-based circumbinary occurrence rate.
+            </p>
+            <ul class="tag-list">
+              <li>Circumbinary planets</li>
+              <li>Occurrence rates</li>
+              <li>Planet formation</li>
+            </ul>
+            <div class="feature-links">
+              <a href="#contact">Get in touch</a>
+            </div>
+          </div>
+        </article>
 
-							</p>
+        <article class="feature-card">
+          <figure class="feature-media">
+            <div class="feature-media-frame">
+              <img src="images/tess-mit_image.jpg" alt="TESS and CHEOPS precision comparison">
+            </div>
+          </figure>
+          <div class="feature-body">
+            <h3>Comparing TESS and CHEOPS Photometric Precision</h3>
+            <p>
+              Analyzed 10 planets observed by both TESS and ESA's CHEOPS mission, finding that TESS performs
+              slightly better than pre-launch predictions suggested — an important calibration for future surveys.
+            </p>
+            <ul class="tag-list">
+              <li>Precision photometry</li>
+              <li>CHEOPS</li>
+              <li>Transit timing</li>
+            </ul>
+            <div class="feature-links">
+              <a href="https://iopscience.iop.org/article/10.3847/1538-3881/acb4e3/pdf" target="_blank" rel="noopener">Read the paper</a>
+            </div>
+          </div>
+        </article>
 
-							<!-- 	Here are the fancy icons that link to your social media.
-								These icons are rendered using Font Awesome fonts, and you can find more icons
-								here: https://fontawesome.com/icons
-							-->
-							<ul class="icons">
-								<!-- The Twitter icon -->
-								<!--<li>
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<!--<a href="#" class="icon fa-twitter">
-										<span class="label">Twitter</span>
-									</a>
-								</li>
-								-->
-								<!-- The Facebook icon -->
-								<!--<li>
-									<a href="#" class="icon fa-facebook">
-										<span class="label">Facebook</span>
-									</a>
-								</li>
-								<!-- The Instagram icon -->
-								<!--<li>
-									<a href="#" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a>
-								</li>
-								<!-- The GitHub icon -->
-								<!--<li>
-									<a href="#" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
+      </div>
+    </section>
 
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
-							</ul>
-						</article>
-					</div>
+    <!-- ===== Community ===== -->
+    <section id="community" class="section community-section">
+      <div class="section-heading">
+        <span class="label">Community</span>
+        <h2>Beyond the telescope</h2>
+        <p>Science doesn't happen in a vacuum — neither does a career. Here's where I show up outside research.</p>
+      </div>
+      <div class="section-grid">
+        <div class="panel">
+          <h3>
+            <i class="fa-solid fa-people-group panel-icon"></i>
+            UNM Graduate Workers Union
+          </h3>
+          <p>
+            Graduate students have been overworked and undervalued for too long. I've been involved with
+            <a href="https://unmgrads.ueunion.org/" target="_blank" rel="noopener">UNM Graduate Workers</a>
+            in several capacities, including as a co-lead negotiator for the Spring 2024 raise —
+            the most expensive contract the UNM administration has ever agreed to. My favorite part, though,
+            is doing walkthroughs and hearing what my colleagues need.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>
+            <i class="fa-solid fa-graduation-cap panel-icon"></i>
+            UNM PUMP
+          </h3>
+          <p>
+            The <a href="https://unmpandagsa.wixsite.com/home/pump" target="_blank" rel="noopener">Peer Undergraduate Mentorship Program</a>
+            in UNM Physics &amp; Astronomy pairs grad students with undergrads navigating the same journey
+            we were on just a few years ago. It sharpens mentorship skills on both sides and strengthens the
+            department as a whole.
+          </p>
+        </div>
+      </div>
+    </section>
 
-					<!-- This is the footer that appears at the bottom of the page -->
-					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
-							this is your work.
-						-->
-						<p class="copyright">&copy; I wrote this! Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+    <!-- ===== CV ===== -->
+    <section id="cv" class="section">
+      <div class="section-heading">
+        <span class="label">CV</span>
+        <h2>Academic timeline</h2>
+        <p>
+          Prefer the full document?
+          <a href="images/Oddo_CV_October2025.pdf" target="_blank" rel="noopener">Grab the PDF</a>,
+          or browse the highlights below.
+        </p>
+      </div>
 
-			</div>
+      <div class="timeline" aria-label="Education and experience timeline">
+        <div class="resume-timeline">
+          <article class="resume-item education" style="--resume-row:1;">
+            <span class="resume-date">2016–2020</span>
+            <span class="resume-kind">Education</span>
+            <h4>B.S. in Astronomy</h4>
+            <p>Case Western Reserve University</p>
+          </article>
+          <article class="resume-item role" style="--resume-row:1;">
+            <span class="resume-date">2019–2020</span>
+            <span class="resume-kind">Experience</span>
+            <h4>Undergraduate Researcher</h4>
+            <p>CWRU — exoplanet yield modeling (WAET concept)</p>
+          </article>
+          <article class="resume-item education" style="--resume-row:2;">
+            <span class="resume-date">2021–present</span>
+            <span class="resume-kind">Education</span>
+            <h4>Ph.D. in Physics &amp; Astronomy</h4>
+            <p>University of New Mexico</p>
+            <p class="muted">Advisor: Dr. Diana Dragomir</p>
+          </article>
+          <article class="resume-item role" style="--resume-row:2;">
+            <span class="resume-date">2021–2022</span>
+            <span class="resume-kind">Experience</span>
+            <h4>Teaching Assistant</h4>
+            <p>University of New Mexico</p>
+          </article>
+          <article class="resume-item role" style="--resume-row:3;">
+            <span class="resume-date">2023–2025</span>
+            <span class="resume-kind">Award</span>
+            <h4>NASA FINESST Awardee</h4>
+            <p>Circumbinary planet occurrence rates with TESS</p>
+          </article>
+          <article class="resume-item role" style="--resume-row:4;">
+            <span class="resume-date">2024</span>
+            <span class="resume-kind">Experience</span>
+            <h4>Lead Contract Negotiator</h4>
+            <p>UNM Graduate Workers Union</p>
+          </article>
+        </div>
+      </div>
 
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
-			<div id="bg"></div>
+      <div class="cv-panels">
+        <details>
+          <summary>Awards &amp; honors</summary>
+          <ul>
+            <li><strong>NASA FINESST Award</strong> — 2023–2025, for circumbinary planet research with TESS</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Publications</summary>
+          <ul class="pub-list">
+            <li>
+              <em>A Catalog of M-Dwarf Eclipsing Binaries Observed by TESS</em>,
+              <strong>Oddo et al.</strong>, <em>ApJ</em> 996, 82 (2026).
+              <a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...996...82O/abstract" target="_blank" rel="noopener">ADS</a>
+            </li>
+            <li>
+              <em>Photometric Precision of TESS and CHEOPS for 10 Transiting Systems</em>,
+              <strong>Oddo et al.</strong>, <em>AJ</em> (2023).
+              <a href="https://iopscience.iop.org/article/10.3847/1538-3881/acb4e3/pdf" target="_blank" rel="noopener">IOPscience</a>
+            </li>
+            <li>
+              <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=%20author%3A%22Oddo%2C%20D.%22&sort=date%20desc%2C%20bibcode%20desc"
+                 target="_blank" rel="noopener">Full publication list on ADS →</a>
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary>Service &amp; outreach</summary>
+          <ul>
+            <li><strong>Co-lead Contract Negotiator</strong>, UNM Graduate Workers Union — Spring 2024</li>
+            <li><strong>Mentor</strong>, UNM PUMP Peer Mentorship Program — 2022–present</li>
+          </ul>
+        </details>
+      </div>
+    </section>
 
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <span class="label">Contact</span>
+        <h2>Let's talk planets</h2>
+        <p>Whether you have a science question, a collaboration idea, or just want to chat circumbinary planets — reach out.</p>
+      </div>
+      <div class="contact-card">
+        <p><strong>Primary email:</strong> <a href="mailto:doddo@unm.edu">doddo@unm.edu</a></p>
+        <p><strong>Personal email:</strong> <a href="mailto:domoddo15@gmail.com">domoddo15@gmail.com</a></p>
+        <p><strong>Department:</strong> UNM Physics &amp; Astronomy, Albuquerque, NM</p>
+        <div class="cta-group">
+          <a class="btn primary" href="mailto:doddo@unm.edu?subject=Hello from the web">Send a message</a>
+          <a class="btn ghost"
+             href="https://ui.adsabs.harvard.edu/search/p_=0&q=%20author%3A%22Oddo%2C%20D.%22&sort=date%20desc%2C%20bibcode%20desc"
+             target="_blank" rel="noopener">My publications</a>
+        </div>
+      </div>
+    </section>
 
-	</body>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=%20author%3A%22Oddo%2C%20D.%22&sort=date%20desc%2C%20bibcode%20desc"
+         target="_blank" rel="noopener">ADS Publications</a> ·
+      <a href="images/Oddo_CV_October2025.pdf" target="_blank" rel="noopener">CV (PDF)</a> ·
+      <a href="mailto:doddo@unm.edu">Email</a>
+    </div>
+    <small>© <span id="year"></span> Dominic Oddo · Design inspired by <a href="https://html5up.net" target="_blank" rel="noopener">HTML5 UP</a></small>
+  </footer>
+
+  <script>
+    // Dark / light theme toggle
+    const toggle = document.getElementById('themeToggle');
+    toggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('do_theme',
+        document.documentElement.classList.contains('dark') ? 'dark' : 'light'
+      );
+    });
+    (function initTheme() {
+      const saved = localStorage.getItem('do_theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+
+    // Active nav link on scroll
+    const navLinks = [...document.querySelectorAll('.nav a')];
+    const sections = navLinks
+      .map(a => document.querySelector(a.getAttribute('href')))
+      .filter(Boolean);
+    const updateActiveLink = () => {
+      const y = window.scrollY + 160;
+      let active = 0;
+      sections.forEach((sec, i) => { if (sec.offsetTop <= y) active = i; });
+      navLinks.forEach((a, i) => {
+        const isActive = i === active;
+        a.classList.toggle('active', isActive);
+        if (isActive) a.setAttribute('aria-current', 'page');
+        else a.removeAttribute('aria-current');
+      });
+    };
+    window.addEventListener('scroll', updateActiveLink, { passive: true });
+    window.addEventListener('load', updateActiveLink);
+    updateActiveLink();
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth-scroll brand back to top
+    const brandLink = document.querySelector('.brand');
+    if (brandLink) {
+      brandLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (history.replaceState) history.replaceState(null, '', '#top');
+      });
+    }
+  </script>
+</body>
 </html>
-
-
-
-
-
-
-
-
