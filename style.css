@@ -380,7 +380,7 @@ a.hero-meta-item:hover { color: var(--accent); opacity: 1; }
 .feature-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 1.4rem;
 }
 .feature-card {
@@ -457,7 +457,12 @@ a.hero-meta-item:hover { color: var(--accent); opacity: 1; }
 .feature-links a:hover { opacity: 1; }
 
 /* ===== Community section ===== */
-.community-section .section-grid { margin-top: 1.2rem; }
+.community-section .section-grid {
+  display: grid;
+  gap: 1.7rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1.2rem;
+}
 .community-section .panel p { color: var(--text-subtle); }
 
 /* ===== CV — Timeline ===== */
